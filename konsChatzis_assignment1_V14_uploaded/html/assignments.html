@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="../css/showStyleSheet.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="container-fluid">
+        <br />
+        <header>
+            <div id="appName">
+                <h3 class="border-bottom border-light text-white bg-dark rounded-pill">University Campus Creator :)</h3>
+            </div>
+            <hr />
+            <div id="perCourse">
+                <ul>
+                    <li><a class="btn btn-info btn-sm" href="assignmentsPerCourse.html" role="button">Assignments per Course</a></li>
+                    <li><a class="btn btn-info btn-sm" href="assignmentsPerStudentPerCourse.html" role="button">Assignments per Student per Course</a></li>
+                </ul>
+            </div>
+            <div id="tableName">
+                <h5 class="rounded-pill bg-dark text-white"> Available Assignments</h5>
+            </div>
+        </header>
+        <main>
+            <table class="table table-hover table-dark">
+                <thead class="thead-light">
+                    <tr>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Submission Date</th>
+                        <th>Passing Mark</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Project A</td>
+                        <td>Create a Messenger app</td>
+                        <td>2020-11-27 23:59:00 PM</td>
+                        <td>50</td>
+                        <td>
+                            <a class="btn btn-success btn-sm" href="edit/assignmentsEdit.html" role="button">Edit</a>
+                            <a class="btn btn-danger btn-sm" href="delete/deletePage.html" role="button">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Project B</td>
+                        <td>Analyze a given dataset</td>
+                        <td>2021-01-10 23:59:00 PM</td>
+                        <td>50</td>
+                        <td>
+                            <a class="btn btn-success btn-sm" href="edit/assignmentsEdit.html" role="button">Edit</a>
+                            <a class="btn btn-danger btn-sm" href="delete/deletePage.html" role="button">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Project C</td>
+                        <td>Critical Synopsis</td>
+                        <td>2021-01-15 23:59:00 PM</td>
+                        <td>50</td>
+                        <td>
+                            <a class="btn btn-success btn-sm" href="edit/assignmentsEdit.html" role="button">Edit</a>
+                            <a class="btn btn-danger btn-sm" href="delete/deletePage.html" role="button">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Project D</td>
+                        <td>Create a Bank app</td>
+                        <td>2021-03-20 23:59:00 PM</td>
+                        <td>75</td>
+                        <td>
+                            <a class="btn btn-success btn-sm" href="edit/assignmentsEdit.html" role="button">Edit</a>
+                            <a class="btn btn-danger btn-sm" href="delete/deletePage.html" role="button">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Project E</td>
+                        <td>Create a cognitive test</td>
+                        <td>2021-03-20 23:59:00 PM</td>
+                        <td>75</td>
+                        <td>
+                            <a class="btn btn-success btn-sm" href="edit/assignmentsEdit.html" role="button">Edit</a>
+                            <a class="btn btn-danger btn-sm" href="delete/deletePage.html" role="button">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Project F</td>
+                        <td>Create a Maps app</td>
+                        <td>2021-03-20 23:59:00 PM</td>
+                        <td>75</td>
+                        <td>
+                            <a class="btn btn-success btn-sm" href="edit/assignmentsEdit.html" role="button">Edit</a>
+                            <a class="btn btn-danger btn-sm" href="delete/deletePage.html" role="button">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Project G</td>
+                        <td>Proposal</td>
+                        <td>2021-03-20 23:59:00 PM</td>
+                        <td>50</td>
+                        <td>
+                            <a class="btn btn-success btn-sm" href="edit/assignmentsEdit.html" role="button">Edit</a>
+                            <a class="btn btn-danger btn-sm" href="delete/deletePage.html" role="button">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Project H</td>
+                        <td>Create a Calculator app</td>
+                        <td>2021-03-20 23:59:00 PM</td>
+                        <td>50</td>
+                        <td>
+                            <a class="btn btn-success btn-sm" href="edit/assignmentsEdit.html" role="button">Edit</a>
+                            <a class="btn btn-danger btn-sm" href="delete/deletePage.html" role="button">Delete</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <a class="btn btn-success btn-lg btn-block" href="add/assignmentsAdd.html" role="button">Add Assignments</a>
+            <hr />
+            <br />
+            <nav id="menuList">
+                <ul>
+                    <li><a class="btn btn-dark btn-sm" href="../Index.html" role="button">Main Menu</a></li>
+                    <li><a class="btn btn-secondary btn-sm" href="courses.html" role="button">Courses</a></li>
+                    <li><a class="btn btn-secondary btn-sm" href="trainers.html" role="button">Trainers</a></li>
+                    <li><a class="btn btn-secondary btn-sm" href="students.html" role="button">Students</a></li>
+                    <li><a class="btn btn-secondary btn-sm" href="assignments.html" role="button">Assignments</a></li>
+                </ul>
+            </nav>
+        </main>
+        <footer>
+            <h5 id="foo">© 2020-2021</h5>
+        </footer>
+    </div>
+</body>
+</html>

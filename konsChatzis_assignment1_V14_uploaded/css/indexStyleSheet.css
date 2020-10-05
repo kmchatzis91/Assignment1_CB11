@@ -1,0 +1,27 @@
+﻿#appName > h2 {
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+}
+
+#tableName > h4 {
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+#tableName > h5 {
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+#foo {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color: white;
+}

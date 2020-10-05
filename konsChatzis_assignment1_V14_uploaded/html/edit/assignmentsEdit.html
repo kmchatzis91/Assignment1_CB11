@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="../../css/editStyleSheet.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="container-fluid">
+        <br />
+        <header>
+            <div id="appName">
+                <h3 class="border-bottom border-light text-white bg-dark rounded-pill">University Campus Creator :)</h3>
+            </div>
+            <hr />
+            <div id="tableName">
+                <h4>Let's edit the selected Assignment!!!</h4>
+            </div>
+        </header>
+        <main>
+            <br />
+            <form class="mainForm">
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="Assignment ID">Assignment ID</label>
+                        <input id="assignmentID" type="number" class="form-control" name="Assignment_ID" value="" placeholder="Give Assignment ID" min="1" required />
+                    </div>
+                    <div class="form-group col-md-8">
+                        <label for="Title">Assignment Title (e.g. Project D)</label>
+                        <input id="title" type="text" class="form-control" name="Assignment_Title" value="" placeholder="Give Assignment's Title" minlength="1" maxlength="25" required />
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="Decription">Assignment Decription (e.g. Create a Bank App)</label>
+                        <input id="decription" type="text" class="form-control" name="Assignment_Decription" value="" placeholder="Give Assignment's Decription" minlength="1" maxlength="50" required />
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="Submission DateTime">Submission Date and Time (Submission on or after 2020-10-10)</label>
+                        <input id="submissionDateTime" type="datetime" class="form-control" name="Submission_DateTime" value="" placeholder="Give Submission Date and Time" min="2020-10-10" max="2021-10-10" required />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="Passing Mark">Passing Mark</label>
+                        <input id="passingMark" type="number" class="form-control" name="Passing_Mark" value="" placeholder="Give Assignment's Passing Mark" min="1" max="100" required />
+                    </div>
+                </div>
+                <br />
+                <button type="submit" class="btn btn-success btn-lg btn-block">Save Changes!</button>
+            </form>
+            <br />
+            <hr />
+            <nav id="menuList">
+                <ul>
+                    <li><a class="btn btn-dark btn-sm" href="../../Index.html" role="button">Main Menu</a></li>
+                    <li><a class="btn btn-secondary btn-sm" href="../courses.html" role="button">Courses</a></li>
+                    <li><a class="btn btn-secondary btn-sm" href="../trainers.html" role="button">Trainers</a></li>
+                    <li><a class="btn btn-secondary btn-sm" href="../students.html" role="button">Students</a></li>
+                    <li><a class="btn btn-secondary btn-sm" href="../assignments.html" role="button">Assignments</a></li>
+                </ul>
+            </nav>
+        </main>
+        <footer>
+            <h5 id="foo">© 2020-2021</h5>
+        </footer>
+    </div>
+</body>
+</html>

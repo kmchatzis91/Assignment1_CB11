@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="../../css/addStyleSheet.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="container-fluid">
+        <br />
+        <header>
+            <div id="appName">
+                <h3 class="border-bottom border-light text-white bg-dark rounded-pill">University Campus Creator :)</h3>
+            </div>
+            <hr />
+            <div id="tableName">
+                <h4>Let's add a new Course!!!</h4>
+            </div>
+        </header>
+        <main>
+            <br />
+            <form class="mainForm">
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="Course ID">Course ID</label>
+                        <input id="courseID" type="number" class="form-control" name="Course_ID" value="" placeholder="Give Course ID" min="1" required />
+                    </div>
+                    <div class="form-group col-md-8">
+                        <label for="Title">Course Title (e.g. CB11)</label>
+                        <input id="title" type="text" class="form-control" name="Course_Title" value="" placeholder="Give Course's Title" minlength="1" maxlength="25" required />
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="Stream">Course Stream (e.g. C#)</label>
+                        <input id="stream" type="text" class="form-control" name="Course_Stream" value="" placeholder="Give Course's Stream" minlength="1" maxlength="25" required />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="Type">Course Type (Full-time or Part-time)</label>
+                        <input id="type" type="text" class="form-control" name="Course_Type" value="" placeholder="Give Course's Type" minlength="1" maxlength="25" required />
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="Start Date">Start Date (All Courses start on or after 2020-09-01)</label>
+                        <input id="startDate" type="date" class="form-control" name="startDate" value="" placeholder="Give Start Date" min="2020-09-01" max="2021-09-01" required />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="End Date">End Date (All Courses end on or after 2020-12-01)</label>
+                        <input id="endDate" type="date" class="form-control" name="endDate" value="" placeholder="Give End Date" min="2020-12-01" max="2021-12-01" required />
+                    </div>
+                </div>
+                <br />
+                <button type="submit" class="btn btn-success btn-lg btn-block">Add this Course to your table!</button>
+            </form>
+            <hr />
+            <br />
+            <nav id="menuList">
+                <ul>
+                    <li><a class="btn btn-dark btn-sm" href="../../Index.html" role="button">Main Menu</a></li>
+                    <li><a class="btn btn-secondary btn-sm" href="../courses.html" role="button">Courses</a></li>
+                    <li><a class="btn btn-secondary btn-sm" href="../trainers.html" role="button">Trainers</a></li>
+                    <li><a class="btn btn-secondary btn-sm" href="../students.html" role="button">Students</a></li>
+                    <li><a class="btn btn-secondary btn-sm" href="../assignments.html" role="button">Assignments</a></li>
+                </ul>
+            </nav>
+        </main>
+        <footer>
+            <h5 id="foo">© 2020-2021</h5>
+        </footer>
+    </div>
+</body>
+</html>

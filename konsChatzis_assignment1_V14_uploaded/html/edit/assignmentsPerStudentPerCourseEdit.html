@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="../../css/addStyleSheet.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="container-fluid">
+        <br />
+        <header>
+            <div id="appName">
+                <h3 class="border-bottom border-light text-white bg-dark rounded-pill">University Campus Creator :)</h3>
+            </div>
+            <hr />
+            <div id="tableName">
+                <h4>Let's edit the selected records!!!</h4>
+            </div>
+        </header>
+        <main>
+            <br />
+            <form class="mainForm">
+                <br />
+                <div style="color: cornflowerblue">
+                    <h5>Course Details:</h5>
+                </div>
+                <br />
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="Stream">Course Stream (e.g. C#)</label>
+                        <select id="stream" class="form-control" required>
+                            <option selected>Select...</option>
+                            <option>C#</option>
+                            <option>Java</option>
+                            <option>JavaScript</option>
+                            <option>Python</option>
+                            <option> Developmental Neuroscience</option>
+                            <option>Research Methods and Programming</option>
+                            <option>Statistical Models</option>
+                            <option>Social Cognition and the Social Brain</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="Type">Course Type (Full-time or Part-time)</label>
+                        <select id="type" class="form-control" required>
+                            <option selected>Select...</option>
+                            <option>full-time</option>
+                            <option>part-time</option>
+                        </select>
+                    </div>
+                </div>
+                <br />
+                <div style="color: cornflowerblue">
+                    <h5>Student Details:</h5>
+                </div>
+                <br />
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="Full Name">Full Name (e.g. George Someone)</label>
+                        <select id="FullName" class="form-control" required>
+                            <option selected>Select...</option>
+                            <option>Vasileios Papadopoulos</option>
+                            <option>Ellie Miller</option>
+                            <option>Atreus Kratoson</option>
+                            <option>Joel Konstans</option>
+                            <option>Maria May</option>
+                            <option>Migi Haveras</option>
+                            <option>Hawk Eye</option>
+                            <option>Ted Stinson</option>
+                        </select>
+                    </div>
+                </div>
+                <br />
+                <div style="color: cornflowerblue">
+                    <h5>Assignment Details:</h5>
+                </div>
+                <br />
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="Decription">Assignment Decription (e.g. Create a currency App)</label>
+                        <select id="Description" class="form-control" required>
+                            <option selected>Select...</option>
+                            <option>Create a Messenger app</option>
+                            <option>Analyze a given dataset</option>
+                            <option>Critical Synopsis</option>
+                            <option>Create a Bank app</option>
+                            <option>Create a cognitive test</option>
+                            <option>Create a Maps app</option>
+                            <option>Proposal</option>
+                            <option>Create a Calculator app</option>
+                        </select>
+                    </div>
+                </div>
+                <br />
+                <button type="submit" class="btn btn-success btn-lg btn-block">Save Changes!</button>
+            </form>
+            <hr />
+            <br />
+            <nav id="menuList">
+                <ul>
+                    <li><a class="btn btn-dark btn-sm" href="../../Index.html" role="button">Main Menu</a></li>
+                    <li><a class="btn btn-secondary btn-sm" href="../courses.html" role="button">Courses</a></li>
+                    <li><a class="btn btn-secondary btn-sm" href="../trainers.html" role="button">Trainers</a></li>
+                    <li><a class="btn btn-secondary btn-sm" href="../students.html" role="button">Students</a></li>
+                    <li><a class="btn btn-secondary btn-sm" href="../assignments.html" role="button">Assignments</a></li>
+                </ul>
+            </nav>
+        </main>
+        <footer>
+            <h5 id="foo">© 2020-2021</h5>
+        </footer>
+    </div>
+</body>
+</html>

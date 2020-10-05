@@ -1,0 +1,24 @@
+﻿#appName > h3 {
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+}
+
+#tableName > h4 {
+    color: green;
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#menuList > ul li {
+    margin: 5px 5px 5px 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#foo {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}

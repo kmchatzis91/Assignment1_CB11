@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="../../css/addStyleSheet.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="container-fluid">
+        <br />
+        <header>
+            <div id="appName">
+                <h3 class="border-bottom border-light text-white bg-dark rounded-pill">University Campus Creator :)</h3>
+            </div>
+            <hr />
+            <div id="tableName">
+                <h4>Let's add a new Trainer!!!</h4>
+            </div>
+        </header>
+        <main>
+            <br />
+            <form class="mainForm">
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="Trainer ID">Trainer ID</label>
+                        <input id="TrainerID" type="number" class="form-control" name="Trainer_ID" value="" placeholder="Give Trainer ID" min="1" required />
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="First Name">First Name (e.g. George)</label>
+                        <input id="FirstName" type="text" class="form-control" name="First_Name" value="" placeholder="Give Trainer's First Name" minlength="1" maxlength="25" required />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="Last Name">Last Name (e.g. Someone)</label>
+                        <input id="LastName" type="text" class="form-control" name="Last_Name" value="" placeholder="Give Trainer's Last Name" minlength="1" maxlength="25" required />
+                    </div>
+                </div>
+                <br />
+                <button type="submit" class="btn btn-success btn-lg btn-block">Add this Trainer to your table!</button>
+            </form>
+            <hr />
+            <br />
+            <nav id="menuList">
+                <ul>
+                    <li><a class="btn btn-dark btn-sm" href="../../Index.html" role="button">Main Menu</a></li>
+                    <li><a class="btn btn-secondary btn-sm" href="../courses.html" role="button">Courses</a></li>
+                    <li><a class="btn btn-secondary btn-sm" href="../trainers.html" role="button">Trainers</a></li>
+                    <li><a class="btn btn-secondary btn-sm" href="../students.html" role="button">Students</a></li>
+                    <li><a class="btn btn-secondary btn-sm" href="../assignments.html" role="button">Assignments</a></li>
+                </ul>
+            </nav>
+        </main>
+        <footer>
+            <h5 id="foo">© 2020-2021</h5>
+        </footer>
+    </div>
+</body>
+</html>
